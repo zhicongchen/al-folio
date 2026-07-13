@@ -3,8 +3,8 @@ layout: course
 title: "NMC5344 Coding for Communicators"
 description: "A course introducing coding for communication research and professional practice using R, with an emphasis on understanding code, verifying results, and communicating computational findings responsibly."
 instructor: Zhicong Chen
-year: 2026/2027
-term: Semester A
+year: 2026
+term: AY 2026/2027 Semester A
 location: TBD
 time: TBD
 code: NMC5344

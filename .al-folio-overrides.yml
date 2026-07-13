@@ -1,0 +1,59 @@
+---
+version: 1
+overrides:
+  _includes/courses.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _includes/courses.liquid
+    upstream_sha256: b302f66998945adce1c1bdd396a0123236e4c6b68d198f8bc092e4334b9d10fd
+    local_sha256: cddd71aba0d5101681a50bc2275cd38bbf7b2f2dc1c94d3f68bdf6be1f222418
+    acknowledged_at: "2026-07-13"
+  _includes/header.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _includes/header.liquid
+    upstream_sha256: c8663513baded68d9fa5fbe4d6363a976535bbe201efe5138243d0ff03101058
+    local_sha256: 272b6c2468cef6b7199cc18056d018ede3d797e5981d255665a467a31f736879
+    acknowledged_at: "2026-07-13"
+  _layouts/about.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _layouts/about.liquid
+    upstream_sha256: 2c28eb83b71fe65f252202c11f0b4a19a9b6f1faccdc870b4f91c4ea51d0c6f1
+    local_sha256: 3682a6da708ac0c331e5ef74f288169474c4b1f9ad913a2795de31b09ff2a3f6
+    acknowledged_at: "2026-07-13"
+  _layouts/course.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _layouts/course.liquid
+    upstream_sha256: "0092ac0149378a29161b87727d2bb8132e74ceefa2e85400e3e851df9c77a30c"
+    local_sha256: fea76ad2aed513778c240a2572f30377b265c34a30347430ee89c10ca890127c
+    acknowledged_at: "2026-07-13"
+  _layouts/cv.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _layouts/cv.liquid
+    upstream_sha256: c586e8051e785b492a0f4452c4e06798d47a8c363d29487e48de4fcd9851700e
+    local_sha256: bfa925c411688213ee5e02c48888eb76c9e8adb3e5b09cb0c81d733d39afd030
+    acknowledged_at: "2026-07-13"
+  _layouts/page.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _layouts/page.liquid
+    upstream_sha256: eb392ada31cdbe8d1a0f5dbd7229700b5fa7cdf6f4788cbb65d6b746ac3b1231
+    local_sha256: 5538f570a1c00a7a383dee605c1c55730fd670f07ba10b6470edb4cb0d13e0b9
+    acknowledged_at: "2026-07-13"
+  _sass/_components.scss:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _sass/_components.scss
+    upstream_sha256: "088665537c10a0f1b996891a3a24de9e8052e0a6b01efef637288781dce8d453"
+    local_sha256: 9978cd71eebefb308593c047eb63d1eb1b6aa8cda8b322684dd419ea1cf9a1f2
+    acknowledged_at: "2026-07-13"
+  _sass/_teachings.scss:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _sass/_teachings.scss
+    upstream_sha256: 0f79ee5dc6001cbaa1955a9b727d26243a3df736a8e6a9f3adf2ec52e332d66f
+    local_sha256: a0f695604749bc37eaae0c22e7e1b2927b4fe6ae4569cb401d01f913529f255d
+    acknowledged_at: "2026-07-13"
