@@ -1,163 +1,95 @@
 ---
 layout: course
 title: "NMC5342 Introduction to Applied Social Media Analytics"
-description: An applied graduate course covering methods for collecting, processing, and analyzing social media data, with emphasis on computational approaches to communication research.
+description: "A hands-on graduate course introducing social media data collection, text and network analysis, visualization, and ethical analytics with Python."
 instructor: Zhicong Chen
 year: 2025
 term: Fall
-location: National University of Singapore
+location: University Town Stephen Riady Centre, Global Learning Room
 code: NMC5342
 course_id: applied-social-media-analytics
 schedule:
-  - week: 1
-    date: "Week 1"
-    topic: "The Social Media Research Landscape"
-    description: "Affordances of social media platforms; computational communication research; big data opportunities and pitfalls."
+  - week: 7
+    date: "Week 7"
+    topic: "Introduction to Social Media Analytics with Python"
+    description: "Social media's influence, the digital media landscape, Python fundamentals, Google Colab, and deploying a GitHub Pages site to document analytics work."
     materials:
-      - name: "Computational Communication Research (journal)"
-        url: "https://computationalcommunication.org/"
-      - name: "Social Media + Society (journal)"
-        url: "https://journals.sagepub.com/home/sms"
-      - name: "Salganik — Bit by Bit (free online)"
-        url: "https://www.bitbybitbook.com/"
-  - week: 2
-    date: "Week 2"
-    topic: "Python Refresher and Data Wrangling"
-    description: "Pandas DataFrames, JSON parsing, datetime handling, environment setup."
-    materials:
+      - name: "Getting a Sharper Picture of Social Media's Influence"
+        url: "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/getting-a-sharper-picture-of-social-medias-influence"
       - name: "Google Colab"
         url: "https://colab.research.google.com/"
-      - name: "pandas User Guide"
-        url: "https://pandas.pydata.org/docs/user_guide/index.html"
-  - week: 3
-    date: "Week 3"
-    topic: "Collecting Data via APIs"
-    description: "REST API fundamentals, authentication, rate limits, pagination; Reddit API and YouTube Data API."
-    materials:
-      - name: "PRAW (Reddit API for Python)"
-        url: "https://praw.readthedocs.io/en/stable/"
-      - name: "YouTube Data API v3"
-        url: "https://developers.google.com/youtube/v3"
-      - name: "Requests Library"
-        url: "https://docs.python-requests.org/en/latest/"
-  - week: 4
-    date: "Week 4"
-    topic: "Web Scraping Social Media"
-    description: "Scraping public pages with BeautifulSoup and Playwright; legal and ethical boundaries."
+      - name: "GitHub Pages"
+        url: "https://pages.github.com/"
+  - week: 8
+    date: "Week 8"
+    topic: "User Analysis and Data Collection"
+    description: "Social media users and engagement, web data structures, static and dynamic scraping, platform logic, APIs, and collecting Reddit or YouTube data."
     materials:
       - name: "Beautiful Soup Documentation"
         url: "https://www.crummy.com/software/BeautifulSoup/bs4/doc/"
-      - name: "Playwright for Python"
-        url: "https://playwright.dev/python/"
-      - name: "hiQ v. LinkedIn (court case overview)"
-        url: "https://en.wikipedia.org/wiki/HiQ_Labs_v._LinkedIn"
-  - week: 5
-    date: "Week 5"
-    topic: "Descriptive Analytics: Engagement and Audience"
-    description: "Like/share/comment distributions, posting patterns, user growth, power-law distributions."
-    materials:
-      - name: "seaborn Gallery"
-        url: "https://seaborn.pydata.org/examples/index.html"
-      - name: "Plotly Express"
-        url: "https://plotly.com/python/plotly-express/"
-  - week: 6
-    date: "Week 6"
-    topic: "Text Analysis of Social Media"
-    description: "Preprocessing tweets and posts; n-grams; TF-IDF; emoji and hashtag handling."
-    materials:
-      - name: "spaCy"
-        url: "https://spacy.io/"
-      - name: "emoji Python Library"
-        url: "https://pypi.org/project/emoji/"
-      - name: "NLTK Book"
-        url: "https://www.nltk.org/book/"
-  - week: 7
-    date: "Week 7"
-    topic: "Sentiment and Opinion Mining"
-    description: "VADER, transformer-based classifiers (e.g., Twitter-roBERTa), aspect-level sentiment."
-    materials:
-      - name: "VADER Sentiment"
-        url: "https://github.com/cjhutto/vaderSentiment"
-      - name: "Twitter-roBERTa (Hugging Face)"
-        url: "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment"
-      - name: "Hugging Face Transformers"
-        url: "https://huggingface.co/docs/transformers"
-  - week: 8
-    date: "Week 8"
-    topic: "Topic Modeling Social Media Corpora"
-    description: "LDA vs. BERTopic on short text; tuning for social media noise; visualising topic change over time."
-    materials:
-      - name: "BERTopic"
-        url: "https://maartengr.github.io/BERTopic/index.html"
-      - name: "Gensim LDA"
-        url: "https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html"
+      - name: "PRAW Documentation"
+        url: "https://praw.readthedocs.io/"
+      - name: "YouTube Data API"
+        url: "https://developers.google.com/youtube/v3"
   - week: 9
     date: "Week 9"
-    topic: "Network Analysis: Structure and Diffusion"
-    description: "Mention, retweet, and follower networks; centrality, clustering, communities; information cascades."
+    topic: "Content Analysis and Text Mining I"
+    description: "Content analysis, tokenization, normalization, stemming and lemmatization, stopword removal, n-grams, frequency analysis, and TF-IDF."
     materials:
+      - name: "NLTK Book"
+        url: "https://www.nltk.org/book/"
+      - name: "scikit-learn: Working with Text Data"
+        url: "https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html"
+  - week: 10
+    date: "Week 10"
+    topic: "Social Listening and Text Mining II"
+    description: "Social listening and metrics, rule-based sentiment analysis with TextBlob, comparison with machine-learning methods, and topic modeling with Gensim LDA."
+    materials:
+      - name: "Social Listening Guide"
+        url: "https://www.meltwater.com/en/blog/social-media-listening-guide"
+      - name: "TextBlob Documentation"
+        url: "https://textblob.readthedocs.io/"
+      - name: "Gensim LDA Tutorial"
+        url: "https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html"
+  - week: 11
+    date: "Week 11"
+    topic: "Competitive Analysis and Network Analysis"
+    description: "Competitive intelligence and SWOT analysis, social graphs, interaction networks, centrality, community detection, hashtag co-occurrence, and time trends."
+    materials:
+      - name: "Competitive Intelligence Guide"
+        url: "https://www.meltwater.com/en/blog/competitive-intelligence"
       - name: "NetworkX Documentation"
         url: "https://networkx.org/documentation/stable/"
       - name: "Gephi"
         url: "https://gephi.org/"
-      - name: "Networks, Crowds, and Markets (Easley & Kleinberg — free)"
-        url: "https://www.cs.cornell.edu/home/kleinber/networks-book/"
-  - week: 10
-    date: "Week 10"
-    topic: "Misinformation and Coordinated Behaviour"
-    description: "Bot detection, coordinated inauthentic behaviour, echo chambers, fact-checking datasets."
-    materials:
-      - name: "Botometer (OSoMe)"
-        url: "https://botometer.osome.iu.edu/"
-      - name: "OSoMe Tools"
-        url: "https://osome.iu.edu/tools/"
-      - name: "Ferrara et al. 2016 — The Rise of Social Bots"
-        url: "https://dl.acm.org/doi/10.1145/2818717"
-  - week: 11
-    date: "Week 11"
-    topic: "LLMs as Research Tools"
-    description: "Prompting GPT-4 / Claude for content coding, entity extraction, and synthetic annotation; validation."
-    materials:
-      - name: "OpenAI API"
-        url: "https://platform.openai.com/docs/"
-      - name: "Anthropic API"
-        url: "https://docs.anthropic.com/"
-      - name: "Pangakis et al. 2023 — Automated Annotation with GPT-4"
-        url: "https://arxiv.org/abs/2302.13007"
   - week: 12
     date: "Week 12"
-    topic: "Ethics and Responsible Research"
-    description: "IRB considerations, informed consent for scraped data, anonymisation, platform ToS, GDPR basics."
+    topic: "Marketing Strategy, Ethics, and Final Presentations"
+    description: "Data-informed social media strategy, privacy and research ethics, the Cambridge Analytica case, final project presentations, peer feedback, and reflection."
     materials:
-      - name: "AoIR Ethics Guidelines"
-        url: "https://aoir.org/ethics/"
-      - name: "ACM Code of Ethics"
-        url: "https://www.acm.org/code-of-ethics"
-  - week: 13
-    date: "Week 13"
-    topic: "Final Project Presentations"
-    description: "Students present original social media analytics projects to the class and invited guests."
-    materials:
+      - name: "A Customer-Centric Approach to Marketing in a Privacy-First World"
+        url: "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/a-customer-centric-approach-to-marketing-in-a-privacy-first-world"
+      - name: "The Cambridge Analytica Scandal"
+        url: "https://www.theverge.com/2018/4/10/17165130/facebook-cambridge-analytica-scandal"
 ---
 
 ## Course Overview
 
-This applied graduate course equips students with the full pipeline for social media research: collecting data from APIs, analysing text and network structure, and interpreting findings in the context of communication theory. Special attention is paid to ethical and methodological rigour.
+This hands-on, project-driven graduate course introduces the principles, methods, and practices of social media analytics for real-world communication problems. Students use Python to collect, analyze, and visualize data from platforms such as Reddit and YouTube, combining computational methods with social science theories to support strategic decision-making in journalism, marketing, public opinion research, and academic inquiry.
 
 ## Learning Objectives
 
 By the end of this course, students will be able to:
 
-- Collect social media data via REST APIs and responsible web scraping
-- Analyse linguistic patterns, sentiment, and topics in large text corpora
-- Construct and characterise social networks from interaction data
-- Apply large language models as annotation and classification aids
-- Design ethically sound social media research studies
+- Explain key concepts and theoretical frameworks in social media analytics
+- Use APIs and responsible web-scraping methods to collect social media data
+- Apply foundational text mining, sentiment analysis, topic modeling, and network analysis techniques
+- Critically evaluate the ethical and social implications of using social media data
+- Design and present an analytics project that answers a substantive communication question
 
-## Prerequisites
+## Course Format
 
-- Intermediate Python (Introduction to Python or equivalent)
-- Familiarity with basic statistics and social science research design
+The course meets in block mode on Saturdays from 9:00 AM to 4:00 PM during Weeks 7–12. Morning sessions combine conceptual instruction, reading discussions, case studies, and live demonstrations. Afternoon sessions emphasize coding workshops and team project work, including consultation, technical troubleshooting, peer code review, and progress reporting.
 
 ## Level
 
@@ -167,30 +99,40 @@ Graduate
 
 Department of Communications and New Media, National University of Singapore
 
-## Key Tools and Libraries
+## Key Tools
 
-| Tool             | Purpose               | Link                                                                      |
-| ---------------- | --------------------- | ------------------------------------------------------------------------- |
-| PRAW             | Reddit API client     | [praw.readthedocs.io](https://praw.readthedocs.io/)                       |
-| YouTube Data API | YouTube data          | [developers.google.com/youtube](https://developers.google.com/youtube/v3) |
-| spaCy            | NLP preprocessing     | [spacy.io](https://spacy.io/)                                             |
-| Hugging Face     | Transformer models    | [huggingface.co](https://huggingface.co/)                                 |
-| NetworkX         | Network analysis      | [networkx.org](https://networkx.org/)                                     |
-| Gephi            | Network visualisation | [gephi.org](https://gephi.org/)                                           |
-| BERTopic         | Topic modelling       | [maartengr.github.io/BERTopic](https://maartengr.github.io/BERTopic/)     |
-| Botometer        | Bot detection         | [botometer.osome.iu.edu](https://botometer.osome.iu.edu/)                 |
+| Tool          | Purpose                                    | Link                                                                                        |
+| ------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| Python        | Programming and social media data analysis | [python.org](https://www.python.org/)                                                       |
+| Google Colab  | Browser-based Python notebooks             | [colab.research.google.com](https://colab.research.google.com/)                             |
+| BeautifulSoup | Static web scraping and HTML parsing       | [crummy.com/software/BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) |
+| PRAW          | Reddit API access                          | [praw.readthedocs.io](https://praw.readthedocs.io/)                                         |
+| TextBlob      | Rule-based sentiment analysis              | [textblob.readthedocs.io](https://textblob.readthedocs.io/)                                 |
+| Gensim        | Topic modeling with LDA                    | [radimrehurek.com/gensim](https://radimrehurek.com/gensim/)                                 |
+| NetworkX      | Network construction and analysis          | [networkx.org](https://networkx.org/)                                                       |
+| Gephi         | Interactive network visualization          | [gephi.org](https://gephi.org/)                                                             |
 
 ## Recommended Readings
 
-- Salganik, M. J. (2017). [_Bit by Bit: Social Research in the Digital Age_](https://www.bitbybitbook.com/) — free online.
-- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). [_Text as Data_](https://press.princeton.edu/books/paperback/9780691207551/text-as-data). Princeton UP.
-- Easley, D. & Kleinberg, J. (2010). [_Networks, Crowds, and Markets_](https://www.cs.cornell.edu/home/kleinber/networks-book/) — free online.
+- Tuten, T. L., & Solomon, M. R. (2017). _Social Media Marketing_. Sage.
+- Tuten, T. L. (2020). _Social Media Marketing_. Sage.
+- Hemann, C., & Burbary, K. (2013). _Digital Marketing Analytics: Making Sense of Consumer Data in a Digital World_. Pearson Education.
+- Russell, M. A. (2013). _Mining the Social Web_. O'Reilly Media.
+- [_Python for Social Media Analytics_ resources](https://github.com/PacktPublishing/Python-Social-Media-Analytics/)
+
+Assigned readings and any updates to the schedule will be posted on Canvas.
 
 ## Assessment
 
-| Component            | Weight |
-| -------------------- | ------ |
-| Weekly labs          | 30%    |
-| Research design memo | 15%    |
-| Final project        | 45%    |
-| Participation        | 10%    |
+| Component                     | Weight |
+| ----------------------------- | -----: |
+| Class participation           |    15% |
+| Group case study presentation |    15% |
+| Individual assignment         |    30% |
+| Group project                 |    40% |
+
+The group project consists of a final presentation, final report, and peer evaluation. Detailed requirements and deadlines are provided on Canvas.
+
+## Generative AI
+
+Generative AI tools may support learning and academic work when permitted for an assessment, but their use must be acknowledged. Students must independently verify AI-generated content, citations, code, and analysis and remain responsible for the accuracy, relevance, and integrity of all submitted work. Presenting AI-generated or AI-paraphrased material as one's own without attribution is prohibited.
