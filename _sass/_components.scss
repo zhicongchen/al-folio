@@ -255,6 +255,14 @@ ul.task-list input[type="checkbox"] {
 
 // Distill
 
+// Keep the desktop navbar expanded when Tailwind's collapse utility wins the cascade.
+@media (min-width: 576px) {
+  #navbar .navbar-collapse {
+    display: flex !important;
+    visibility: visible !important;
+  }
+}
+
 .distill {
   a:hover {
     border-bottom-color: var(--global-theme-color);
